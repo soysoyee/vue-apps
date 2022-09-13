@@ -25,7 +25,7 @@ import css from 'rollup-plugin-css-only'
 var serverPath
 if ((process.env.BUILD !== 'production')) {
     // your ngrok host name for local testing
-    serverPath = "https://blair-vue-apps.ngrok.io";
+    serverPath = "https://soyjang.github.io/vue-apps/";
 } else {
     serverPath = "https://resources.realitymedia.digital";
 }
